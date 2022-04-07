@@ -93,7 +93,7 @@ showAlertDialog(BuildContext context){
         return AlertDialog(
           elevation: 50,
           title: const Text('Add new data'),
-          content: Expanded(
+          content: Container(
             child: SingleChildScrollView(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
